@@ -15,6 +15,6 @@ An ESP-01 device that connect to iPod classic Gen3-5 and let you control, play s
 ## Version 2 (not publish)
 ![all](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/all1.jpg)
 
-![web1](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/web1.jpg)
+![web1](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/web1.jpeg)
 
-![web2](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/web2.jpg)
+![web2](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/web2.jpeg)
