@@ -15,8 +15,9 @@ a dock station for iPod 30 pin (gen3, gen4, classic, video, nano, iPhone)
 ![diagram](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/prototpe.png)
 
 ## Version 2 (not published)
-- Remote navigate and playback control  iPod 30 pin (gen3, gen4, classic, video, nano, iPhone)
+- For iPod 30 pin connector (gen3, gen4, classic, video, nano, iPhone)
 - Remote control on web browsers with smartphones, tablets, notebooks, PC over WiFi 2.4GHz
+- Remote navigate and playback control on web browsers with smartphones, tablets, notebooks, PC over WiFi 2.4GHz
 - iPod touch wheel UI emulate
 - selectable Playlists, Albums, Artists, Songs
 - 3.5 mm. audio/video jack output to connect to an amplifier
