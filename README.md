@@ -19,14 +19,14 @@ a dock station for iPod 30 pin (gen3, gen4, classic, video, nano, iPhone)
 - Remote control on web browsers with smartphones, tablets, notebooks, PC over WiFi 2.4GHz
 - Remote navigate and playback control on web browsers with smartphones, tablets, notebooks, PC over WiFi 2.4GHz
 - iPod touch wheel UI emulate
-- selectable Playlists, Albums, Artists, Songs
+- Selectable Playlists, Albums, Artists, Songs
 - 3.5 mm. audio/video jack output to connect to an amplifier
 - Wireless Bluetooth 5 connection with external antenna to connect to headphones / Bluetooth speaker (20 meters range)
-- 5V or 12V selectable switch charger
-- changeable FONT and THEME
+- 5V or 12V charger selectable switch
+- Changeable FONT and THEME
 - Firmware upgrade OTA (online/offline)
 - USB C power supply by power adaptor or power bank
-- accessory add-on ready (for the future accessories attach on)
+- Accessory add-on ready (for the future accessories attached on)
   
 ![all](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/all1.jpg)
 
