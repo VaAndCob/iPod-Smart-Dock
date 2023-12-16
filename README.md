@@ -1,4 +1,4 @@
-# iPod-Smart-Dock-V1
+# iPod-Smart-Dock-V1 (prototype)
 a dock station for iPod 30 pin (gen3, gen4, classic, video, nano, iPhone)
 - Remote control on web browsers with smartphones, tablets, notebooks, PC over WiFi 2.4GHz
 - 
