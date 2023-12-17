@@ -4,7 +4,7 @@ Features:
 - 12 Volt charger.
 Parts:
 * ESP-01;
-* iPod Classic Gen 1-5
+* iPod /iphone 30-pin
 * 30 pin apple male dock connector
 * Switching power supply 12vdc to 5vdc
 * AMS1117 low-dropout linear voltage regulator
