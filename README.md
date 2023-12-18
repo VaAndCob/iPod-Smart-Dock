@@ -16,7 +16,8 @@ https://youtu.be/brp1ZJ7FeHw?si=_tc-UpiQPWjvWJQX
 ![diagram](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/prototpe.png)
 
 
-## [Version 2 (not published) Youtube](https://youtu.be/8u41ffgJiVw)
+## [Version 2 (not published)]
+https://youtu.be/8u41ffgJiVw
 
 - For iPod 30 pin connector (gen3, gen4, classic, video, nano, iPhone)
 - Remote control on web browsers with smartphones, tablets, notebooks, PC over WiFi 2.4GHz
