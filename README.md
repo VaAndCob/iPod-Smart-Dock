@@ -5,7 +5,7 @@ a dock station for iPod 30 pin (gen3, gen4, classic, video, nano, iPhone)
 - Utilize iPod accessory protocol to query music, navigate, and playback control
 
 
-## Prototype
+## Version 1 (Prototype)
 https://youtu.be/brp1ZJ7FeHw?si=_tc-UpiQPWjvWJQX
 ![prototype](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/%E2%80%8Eprototype1.%E2%80%8E001.jpeg)
 
