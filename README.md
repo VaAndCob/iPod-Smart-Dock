@@ -1,11 +1,11 @@
 # iPod-Smart-Dock-V1 (prototype)
 ## This repository has open-source code for prototypes only.
 a dock station for iPod 30 pin (gen3, gen4, classic, video, nano, iPhone)
-- Remote control on web browsers with smartphones, tablets, notebooks, and PCs over WiFi 2.4GHz
+- Remote control an iPod on web browsers with smartphones, tablets, notebooks, and PCs over WiFi 2.4GHz
 - Utilize iPod accessory protocol to query music, navigate, and playback control
 
 
-## Version 1 (Prototype)
+## Version 1 - Buttons UI (Prototype)
 https://youtu.be/brp1ZJ7FeHw?si=_tc-UpiQPWjvWJQX
 ![prototype](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/%E2%80%8Eprototype1.%E2%80%8E001.jpeg)
 
@@ -16,7 +16,7 @@ https://youtu.be/brp1ZJ7FeHw?si=_tc-UpiQPWjvWJQX
 ![diagram](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/prototpe.png)
 
 
-## [Version 2 (not published)]
+## [Version 2 - Touch wheel UI (not published)]
 https://youtu.be/8u41ffgJiVw
 
 - For iPod 30 pin connector (gen3, gen4, classic, video, nano, iPhone)
