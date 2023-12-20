@@ -37,3 +37,6 @@ https://youtu.be/8u41ffgJiVw
 ![web1](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/web1.jpeg)
 
 ![web2](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/web2.jpeg)
+
+## License and Credits
+Developed by Ratthanin W (2023)
