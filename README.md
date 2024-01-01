@@ -31,6 +31,8 @@ https://youtu.be/8u41ffgJiVw
 - Firmware upgrade OTA (online/offline)
 - USB C power supply by power adaptor or power bank
 - Accessory add-on ready (for the future accessories attached on)
+
+## Interest to buy ![IM]https://www.facebook.com/VaAndCob
   
 ![all](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/all1.jpg)
 
@@ -39,4 +41,4 @@ https://youtu.be/8u41ffgJiVw
 ![web2](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/web2.jpeg)
 
 ## License and Credits
-Developed by Ratthanin W (2023)
+Developed by Va&Cob (2023)
