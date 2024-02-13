@@ -24,13 +24,14 @@ https://youtu.be/8u41ffgJiVw
 - Remote navigate and playback control on web browsers with smartphones, tablets, notebooks, PC over WiFi 2.4GHz
 - iPod touch wheel UI emulate
 - Selectable Playlists, Albums, Artists, Songs
+- Selectable equalizer
 - 3.5 mm. audio/video jack output to connect to an amplifier
 - Wireless Bluetooth 5 connection with external antenna to connect to headphones / Bluetooth speaker (20 meters range)
 - 5V or 12V charger selectable switch
-- Changeable FONT and THEME
+- Changeable FONT and THEME, multilingual font support
 - Firmware upgrade OTA (online/offline)
 - USB C power supply by power adaptor or power bank
-- Accessory add-on ready (for the future accessories attached on)
+- Accessory add-on ready (for the future accessories attached)
 
 ## Interest to buy [Inbox](https://www.facebook.com/VaAndCob)
   
