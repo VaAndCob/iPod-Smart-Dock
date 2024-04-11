@@ -16,7 +16,7 @@ https://youtu.be/brp1ZJ7FeHw?si=_tc-UpiQPWjvWJQX
 ![diagram](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/prototpe.png)
 
 
-## [Version 2 - Touch wheel UI (not published)]
+## [Version 2.1 - Touch wheel UI (not published)]
 https://youtu.be/8u41ffgJiVw
 
 - For iPod 30 pin connector (gen3, gen4, classic, video, nano, iPhone)
