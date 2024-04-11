@@ -44,7 +44,8 @@ https://youtu.be/8u41ffgJiVw
 ![Version 2.3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/v3_1.jpg)
 ![Version 2.3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/v3_2.jpg)
 ![Version 2.3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/v3_3.jpg)
-![Video](https://www.tiktok.com/@vaandcob/video/7349179325091974421)
+
+Demo Video -> https://www.tiktok.com/@vaandcob/video/7349179325091974421
 
 ## Interest to buy [Inbox](https://www.facebook.com/VaAndCob)
 
