@@ -1,4 +1,5 @@
-# iPod-Smart-Dock-V1 (prototype)
+![all](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/v3_1.jpg)
+
 ## This repository has open-source code for prototypes only.
 a dock station for iPod 30 pin (gen3, gen4, classic, video, nano, iPhone)
 - Remote control an iPod on web browsers with smartphones, tablets, notebooks, and PCs over WiFi 2.4GHz
@@ -32,14 +33,19 @@ https://youtu.be/8u41ffgJiVw
 - Firmware upgrade OTA (online/offline)
 - USB C power supply by power adaptor or power bank
 - Accessory add-on ready (for the future accessories attached)
-
-## Interest to buy [Inbox](https://www.facebook.com/VaAndCob)
   
 ![all](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/all1.jpg)
 
 ![web1](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/web1.jpeg)
 
 ![web2](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/web2.jpeg)
+
+## [Version 2.3 - Low profile (not published)]
+![Version 2.3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/v3_1.jpg)
+![Version 2.3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/v3_2.jpg)
+https://www.tiktok.com/@vaandcob/video/7349179325091974421
+
+## Interest to buy [Inbox](https://www.facebook.com/VaAndCob)
 
 ## License and Credits
 Developed by Va&Cob (2023)
