@@ -1,5 +1,5 @@
 
-https://vaandcob.github.io/firmware/tools/iPodImageConverter.html
+https://vaandcob.github.io/iPod-Smart-Dock/tool/iPodImageConverter.html
 
 iPod Monochrome Image Converter by Va&Cob
 
