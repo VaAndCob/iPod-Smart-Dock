@@ -18,7 +18,7 @@ https://youtu.be/brp1ZJ7FeHw?si=_tc-UpiQPWjvWJQX
 
 
 ## [Version 2.1 - Touch wheel UI (not published)]
-https://youtu.be/8u41ffgJiVw
+[https://youtu.be/8u41ffgJiVw](https://youtu.be/Ad9eqryjbyI)
 
 Enhanced Functionality:
 -  Wide Compatibility: Works seamlessly with all iPods and iPhones equipped with a 30-pin dock connector, including iPod Gen3, Gen4, Video, Classic, Nano, mini, iPhone 4s, and more.
