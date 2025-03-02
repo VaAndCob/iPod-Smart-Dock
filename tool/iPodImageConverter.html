@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iPod Color Image Converter by Va&amp;Cob</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: navajowhite;
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .border-frame {
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 90%;
+    height:90vh; 
+    box-sizing: border-box;
+    overflow: auto;
+  }
+  .container .border-frame #bmpInfo {
+   text-align: left;
+  padding: 10px;
+  display: none;
+    }
+
+  canvas {
+    border: 2px solid #333;
+    margin: 10px 0;
+  }
+
+  label,
+  input,
+  textarea {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+
+  label {
+    text-align: left;
+    padding: 10px;
+  }
+
+  input {
+    width: 15%;
+  }
+
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+    /* Other styles for textarea */
+  }
+
+  .border-frame textarea {
+    width: 100%;
+    box-sizing: border-box;
+    /* Other styles for textarea */
+  }
+  .button-container {
+  display: flex;
+  justify-content: center; /* Align items horizontally */
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.button-container .tile {
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  margin: 0 5px; /* Adjust spacing between tiles */
+  cursor: pointer;
+}
+
+/* Define different colors for different tiles */
+.button-container .tile:nth-child(2) {
+  background-color: #555555;
+}
+
+.button-container .tile:nth-child(3) {
+  background-color: #aaaaaa;
+}
+
+.button-container .tile:nth-child(4) {
+  background-color: #ffffff;
+  color: black;
+}
+#imageInputColor {
+    width: 300px; /* Set the width to your desired value */
+}
+#sourceImageMono {
+    width: 300px; /* Set the width to your desired value */
+}
+</style>
+</head>
+<body>
+<h2>iPod Image Converter by Va&Cob</h2>
+<div class="container">
+  <div class="border-frame">
+   Convert 'color image to RGB565 16-bit big endian byte array' to use with an old iPod color display<br>
+    <br>
+    <label for="myfile">(1) Select JPG/PNG image file:</label>
+    <input type="file" id="imageInputColor" textaccept="image/jpeg, image/png">
+    <br>
+    <img id="sourceImageColor" alt="Source Image">
+    <p id="imageInfoColor"></p>
+    <hr>  
+  <label for="sizeOptions">(2) Select Size:</label>
+  <select id="sizeOptions">
+    <option value="220x110">220 x 110</option>
+    <option value="128x64">128 x 64</option>
+  </select>
+  <button onclick="convertAndDisplayColor()">(3) Scale and Convert</button>
+  
+  <br>
+  <img id="displayImage" alt="Converted Image">
+  <textarea id="rawData" rows="20" cols="50" placeholder="2 byte/pixel RGB656 big endian image raw hex data array..."></textarea>
+  <p>
+  <label id="convertedImageData">Total Converted Image Byte Count = </label>
+  <button onclick="copyToClipboardColor()">(4) Copy to Clipboard</button>
+  </p> 
+
+</div>
+
+<div class="border-frame">
+Convert '4-bit GIMP bmp exported image to 2-bit color depth monochrome image byte array' to use with an old iPod monochrome display<br>
+<div class="button-container">
+  Old iPod classic monochrome display color code ->
+  <div class="tile">0x00</div>
+  <div class="tile">0x55</div>
+  <div class="tile">0xaa</div>
+  <div class="tile">0xff</div>
+</div> 
+
+
+
+
+    <p> How to use: Use GIMP app (set mode color palette 2 bit export as .BMP)<br><br>
+      <a href = "https://vaandcob.github.io/firmware/tools/2-bit-grayscale.gpl">Download 2-bit monochrome color palette</a>
+    
+    </p>
+    <h3>BMP File Information</h3>
+    <label for="myfile">(1) Select GIMP 2bit monochrome exported .BMP image file:</label>
+    <input type="file" id="sourceImageMono" accept=".bmp">
+    <p>
+    <div id="bmpInfo" display="none"></div>
+    <textarea id="imageInputMono" rows="5" cols="50" placeholder="GIMP exported 4 bit per pixel hex data array"></textarea>
+    <p>
+
+    <label id="imageInfoMono"></label>
+    <button onclick="performConversion()">(2) Convert Image</button>
+    </p>
+
+    <lable> 2 bit/pixel grey image byte array output </label>
+    <br>
+    <textarea id="consoleOutput" rows="20" cols="50" placeholder="4 pixel/byte (2 bit/pixel) Monochrome image raw hex data array..."></textarea>
+    
+    <select id="scaleDropdown">
+      <option value="1">x1</option>
+      <option value="2">x2</option>
+      <option value="3">x3</option>
+      <option value="4">x4</option>
+    </select>
+    <button onclick="showImage()">(3) Draw Image</button>
+    <button onclick="copyToClipboardMono()">(4) Copy to Clipboard</button>
+    <br>
+    <canvas id="imageCanvas"></canvas>
+  </div>
+</div>
+
+  <script>
+  //COLOR
+    function copyToClipboardColor() {
+        const consoleOutput = document.getElementById('rawData');
+        consoleOutput.select();
+        document.execCommand('copy');
+        alert('Color Image Hexadecimal Byte Array Copied to clipboard!');
+    }
+
+    function convertAndDisplayColor() {
+    var rawdatacount = 0;
+      var img = document.getElementById('sourceImageColor');
+      var sizeOption = document.getElementById('sizeOptions').value.split('x');
+      var width = parseInt(sizeOption[0]);
+      var height = parseInt(sizeOption[1]);
+
+      var canvas = document.createElement('canvas');
+      var ctx = canvas.getContext('2d');
+      canvas.width = width;
+      canvas.height = height;
+      ctx.drawImage(img, 0, 0, width, height);
+
+      var imageData = ctx.getImageData(0, 0, width, height);
+      var data = imageData.data;
+      var rawData = [];
+      for (var i = 0; i < data.length; i += 4) {
+        var r = data[i];
+        var g = data[i + 1];
+        var b = data[i + 2];
+        // Convert RGB values to 16-bit
+        var rgb16 = ((r & 0xF8) << 8) | ((g & 0xFC) << 3) | (b >> 3);
+        // Convert to big endian and format to 0x00
+        var hexMSB = ((rgb16 >> 8) & 0xFF).toString(16).padStart(2, '0');
+        var hexLSB = (rgb16 & 0xFF).toString(16).padStart(2, '0');
+        // Push the formatted bytes to the raw data array
+        rawData.push('0x' + hexMSB);
+        rawData.push(', 0x' + hexLSB);
+        rawdatacount +=2;
+        // Check if it's the last pixel of the row
+        if ((i / 4 + 1) % width === 0 && i !== data.length - 4) {
+          rawData.push(',\n'); // Add a comma and new line
+        } else {
+          rawData.push(', '); // Add comma and space
+        }
+      }
+      document.getElementById('rawData').value = rawData.join('');
+
+          // Display total converted image byte count
+    document.getElementById('convertedImageData').innerText = "Total Converted Image Byte Count = " + rawdatacount;
+    displayConverted();
+
+    }
+
+function displayConverted() {
+    const textData = document.getElementById('rawData').value.replaceAll(/\s/g, '');//remove space and newline
+    const rawData = textData.split(',');
+    var canvas = document.createElement('canvas');
+    var ctx = canvas.getContext('2d');
+    var sizeOption = document.getElementById('sizeOptions').value.split('x');
+    var width = parseInt(sizeOption[0]);
+    var height = parseInt(sizeOption[1]);
+    canvas.width = width;
+    canvas.height = height;
+    var imageData = ctx.createImageData(width, height);
+    var data = imageData.data;
+    var i = 0;
+        // Convert back to 16-bit RGB
+    for (var j= 0;j<width*2*height;j +=2) {
+        
+        var rgb16 = (parseInt(rawData[j], 16) << 8) | parseInt(rawData[j + 1], 16);
+        // Convert to 8-bit
+        var r = (rgb16 & 0xF800) >> 8; // 5 bits for R
+        var g = (rgb16 & 0x07E0) >> 3; // 6 bits for G
+        var b = (rgb16 & 0x001F) << 3; // 5 bits for B
+        data[i] = r
+        data[i + 1] = g
+        data[i + 2] = b
+        data[i + 3] = 255; // Alpha channel
+        i = i+4;
+    }
+    ctx.putImageData(imageData, 0, 0);
+    var convertedImage = canvas.toDataURL('image/jpeg');
+    var displayImage = document.getElementById('displayImage');
+    displayImage.src = convertedImage;
+    displayImage.style.width = width + 'px'; // Set width of the displayed image
+    displayImage.style.height = height + 'px'; // Set height of the displayed image
+}
+
+
+
+    document.getElementById('imageInputColor').addEventListener('change', function(e) {
+      var file = e.target.files[0];
+      if (file) {
+        var reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onload = function(e) {
+          var image = new Image();
+          image.src = e.target.result;
+          image.onload = function() {
+            var width = this.width;
+            var height = this.height;
+            document.getElementById('sourceImageColor').src = this.src;
+            document.getElementById('imageInfoColor').textContent = 'Image Size (WxH): ' + width + ' x ' + height + ' px';
+          };
+        };
+      }
+    });
+
+//-----------------------------------------------------------------------
+    let draw_scale = 1;
+    let widthMono = 0;
+    let heightMono = 0;
+
+function parseBMPHeader(data) {
+    var header = {};
+    header.signature = String.fromCharCode(data[0], data[1]);
+    header.fileSize = data[2] + (data[3] << 8) + (data[4] << 16) + (data[5] << 24);
+    header.dataOffset = data[10] + (data[11] << 8) + (data[12] << 16) + (data[13] << 24);
+    header.imageWidth = data[18] + (data[19] << 8) + (data[20] << 16) + (data[21] << 24);
+    header.imageHeight = data[22] + (data[23] << 8) + (data[24] << 16) + (data[25] << 24);
+    header.bit_color_Depth = data[28] + (data[29] << 8);
+    header.Image_byte_count = header.fileSize - header.dataOffset;
+    widthMono = header.imageWidth;
+    heightMono = header.imageHeight;
+    return header;
+}
+
+function convertToHexArray(data, offset, width, height) {
+    let byteCount = Math.ceil(width * height / 2); // 4 bits per pixel (2 pixels per byte)
+    var hexArray = [];
+
+    for (var i = offset; i < offset + byteCount; i++) {
+        hexArray.push('0x' + data[i].toString(16).padStart(2, '0')); // Ensure 2-digit hex representation
+    }
+
+    return hexArray;
+}
+
+document.getElementById('sourceImageMono').addEventListener('change', function(event) {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    
+    reader.onload = function(event) {
+        var bmpData = new Uint8Array(event.target.result);
+        var headerInfo = parseBMPHeader(bmpData);
+        var hexArray = convertToHexArray(bmpData, headerInfo.dataOffset, headerInfo.imageWidth, headerInfo.imageHeight);
+
+        
+        document.getElementById('bmpInfo').innerText = JSON.stringify(headerInfo, null, 4);
+        document.getElementById('imageInputMono').value = hexArray.join(',');
+
+        document.getElementById('imageInfoMono').textContent = 'Image Size (WxH): ' + headerInfo.imageWidth + ' x ' + headerInfo.imageHeight + ' px';
+    };
+    
+    reader.readAsArrayBuffer(file);
+});
+      const canvas = document.getElementById('imageCanvas');
+      const ctx = canvas.getContext('2d');
+
+    
+
+      function copyToClipboardMono() {
+        const consoleOutput = document.getElementById('consoleOutput');
+        consoleOutput.select();
+        document.execCommand('copy');
+        alert('Monochrome Image Hexadecimal Byte Array Copied to clipboard!');
+      }
+
+      function performConversion() {
+        const imageDataInput = document.getElementById('imageInputMono').value;
+        const grayImage = imageDataInput.split(',').map(Number);
+        let consoleLogs = "";
+
+        function appendLog(log) {
+          consoleLogs += log;
+        }
+        convertAndDisplayMono(grayImage,widthMono, heightMono, appendLog);
+        document.getElementById('consoleOutput').value = consoleLogs;
+      }
+
+      function convertAndDisplayMono(grayImage, width, height, appendLog) {
+        const byteSize = (width * height) / 4;
+        const fourPixelByte = new Uint8Array(byteSize); 
+        const rawImageSize = width/2 * height;
+       // let byteIndex = 0;
+        let row = height;
+        let byteIndex = width* (row -1) /4;
+     
+        //combine 2 byte 4 pixel to 1 byte 4 pixel
+        //BMP image read from bottom -> top, left -> right
+        for (let i = 0; i < rawImageSize; i += 2) {
+          const twoBit3 = grayImage[i] >> 4 & 0b00001111;
+          const twoBit2 = grayImage[i] & 0b00001111;
+          const twoBit1 = grayImage[i + 1] >> 4 & 0b00001111;
+          const twoBit0 = grayImage[i + 1] & 0b00001111;
+          //combine 4 of 2 bit into 1 byte
+          fourPixelByte[byteIndex] = 255 - (twoBit0 | (twoBit1 << 2) | (twoBit2 << 4) | (twoBit3 << 6));
+          byteIndex++;//next new image byte
+          //if 1 row pass then move to upper row until row 0
+          if (byteIndex % (width / 4) == 0.0) {
+            row--;
+            byteIndex = width* (row -1) /4;
+          }
+        }//for
+        //create byte array log for new image
+        //Top -> bottom, left -> right
+        for (let i = 0; i< byteSize; i++) {
+          appendLog(`0x${fourPixelByte[i].toString(16).padStart(2, '0')}`);//show in textbox
+          const fractionalPart = i % (width / 4);
+          if (fractionalPart !== 0.0) appendLog(",");//add comma
+          else appendLog(",\n");//add new line
+    
+         }//for
+      }//convertAndDisplayMono
+        
+    
+
+      function showImage() {
+        const width = widthMono;
+        const height = heightMono;
+        canvas.width = width * draw_scale;
+        canvas.height = height * draw_scale;
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        const byteArrayText = document.getElementById('consoleOutput').value.replaceAll(/\s/g, '');
+        const stringArray = byteArrayText.split(',');
+        const imageData = new Uint8Array(stringArray.length);
+        for (let i = 0; i < stringArray.length; i++) {
+          imageData[i] = parseInt(stringArray[i], 16);
+        }
+        let index = 0;
+        for (let y = 0; y < height; y++) {
+          for (let x = 0; x < width; x = x + 4) { //split 8 bit to 2 bit x 4 bytes
+            let pixelValue = (imageData[index] >> 6 & 0b11); //select first 2 MSB
+            ctx.fillStyle = getHexColorFrom2BitGray(pixelValue);
+            ctx.fillRect(x * draw_scale, y * draw_scale, draw_scale, draw_scale); //plot first left most pixel
+            pixelValue = (imageData[index] >> 4 & 0b11); //shift 2 and select first 2 MSB
+            ctx.fillStyle =  getHexColorFrom2BitGray(pixelValue);
+            ctx.fillRect((x + 1) * draw_scale, y * draw_scale, draw_scale, draw_scale);
+            pixelValue =  (imageData[index] >> 2 & 0b11);
+            ctx.fillStyle =  getHexColorFrom2BitGray(pixelValue);
+            ctx.fillRect((x + 2) * draw_scale, y * draw_scale, draw_scale, draw_scale);
+            pixelValue = (imageData[index] & 0b11);
+            ctx.fillStyle =  getHexColorFrom2BitGray(pixelValue);
+            ctx.fillRect((x + 3) * draw_scale, y * draw_scale, draw_scale, draw_scale); //plot right most pixel
+            index++;
+            //  console.log(index);
+          }
+        }
+        
+      }
+//function transform 2 bit gray to css color
+ function getHexColorFrom2BitGray(grayValue) {
+    let color;
+     
+    switch (grayValue) {
+        case 0b11://ipod black
+            color = "#000000"; // Black
+            break;
+        case 0b10://ipod dark gray
+            color = "#555555"; // Dark gray
+            break;
+        case 0b01://ipod light gray
+            color = "#AAAAAA"; // Light gray
+            break;
+        case 0b00://ipod no color
+            color = "#FFFFFF"; // White
+            break;
+        default:
+            // Handle invalid values
+            color = "#000000"; // Default to black
+            break;
+    }
+
+    return color;
+}
+
+
+// Add event listener for scaleDropdown
+document.getElementById('scaleDropdown').addEventListener('change', function() {
+    // Get the selected scale factor
+    const selectedScale = parseInt(this.value);
+    draw_scale = selectedScale;
+
+});   
+  </script>
+</body>
+</html>

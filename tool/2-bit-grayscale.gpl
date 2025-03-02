@@ -1,0 +1,8 @@
+GIMP Palette
+Name: 2-bit-grayscale.gpl
+Columns: 4
+#
+  0   0   0	000000
+103 103 103	676767
+182 182 182	b6b6b6
+255 255 255	ffffff
