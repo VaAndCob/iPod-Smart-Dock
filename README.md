@@ -20,19 +20,21 @@ https://youtu.be/brp1ZJ7FeHw?si=_tc-UpiQPWjvWJQX
 ## [Version 2.1 - Touch wheel UI (not published)]
 https://youtu.be/8u41ffgJiVw
 
-- For iPod 30 pin connector (gen3, gen4, classic, video, nano, iPhone)
-- Remote control on web browsers with smartphones, tablets, notebooks, PC over WiFi 2.4GHz
-- Remote navigate and playback control on web browsers with smartphones, tablets, notebooks, PC over WiFi 2.4GHz
-- iPod touch wheel UI emulate
-- Selectable Playlists, Albums, Artists, Songs
-- Selectable equalizer
-- 3.5 mm. audio/video jack output to connect to an amplifier
-- Wireless Bluetooth 5 connection with external antenna to connect to headphones / Bluetooth speaker (20 meters range)
-- 5V or 12V charger selectable switch
-- Changeable FONT and THEME, multilingual font support
-- Firmware upgrade OTA (online/offline)
-- USB C power supply by power adaptor or power bank
-- Accessory add-on ready (for the future accessories attached)
+Enhanced Functionality:
+-  Wide Compatibility: Works seamlessly with all iPods and iPhones equipped with a 30-pin dock connector, including iPod Gen3, Gen4, Video, Classic, Nano, mini, iPhone 4s, and more.
+- Web-based Control: Take control of your iPod through a user-friendly web interface accessible from any smartphone, tablet, or computer connected to the same WiFi network.
+- Navigate your music library effortlessly with a web interface that mimics the iconic iPod touch wheel.
+- Browse and play playlists, albums, artists, genres and songs with ease.
+- Fine-tune your audio experience with a selectable equalizer.
+- Support all language music track information display.
+Versatile Connectivity:
+- Audio/Video Output: Connect to an amplifier or speakers using the 3.5mm audio/video output jack.
+- Bluetooth 5.3: Wirelessly stream music to Bluetooth speakers or headphones with extended range (up to 20 meters), adjustable volume with knob
+- Charging: Charge your iPod at 5V or 12V (selectable via a switch). 12V charging offers faster charging speeds for compatible models. (FireWire replacement)
+3 enclosure colour options  (Black / Yellow /Blue)
+Future-proof Design:
+- OTA Updates: Receive firmware updates over the air for continuous improvements and new features.
+- Expandable: Supports future accessories add-ons, such as audio spectrum LED ring, candlelight, panel analogue VU meter, etc..
   
 ![all](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/all1.jpg)
 
