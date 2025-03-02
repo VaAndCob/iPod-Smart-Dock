@@ -1,4 +1,4 @@
-![all](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/v3_1.jpg)
+![all](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/withaccessory.png)
 
 ## This repository has open-source code for prototypes only.
 a dock station for iPod 30 pin (gen3, gen4, classic, video, nano, iPhone)
