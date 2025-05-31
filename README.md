@@ -1,3 +1,5 @@
+[Please view the video here](https://youtu.be/9AMtOfmdr1U)
+
 ![all](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/withaccessory.png)
 
 ## This repository has open-source code for prototypes only.
