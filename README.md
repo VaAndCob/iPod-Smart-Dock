@@ -1,16 +1,14 @@
 # iPod Smart Dock
 
-Click to open on Youtube
+Universal iPod Controller with 30-pin compatibility, web-based touch-wheel interface, EQ control, and multilingual track support. Features 3.5mm AV out, Bluetooth 5.3 streaming, switchable 5V/12V charging, OTA updates, and expansion-ready design — available in Black, Yellow, or Blue.
+
+Click image below to open on YouTube
 [![Watch the video](https://img.youtube.com/vi/9AMtOfmdr1U/maxresdefault.jpg)](https://www.youtube.com/watch?v=9AMtOfmdr1U)
 
 A tool to convert the colour image to a 4-bit grey bitmap into Bytes Array -> 
 [iPod Image Converter](https://vaandcob.github.io/firmware/tools/iPodImageConverter.html)
 
-A dock station for iPod and iPhone with 30-pin dock connector (gen3, gen4, classic, video, nano, iPhone)
-- Remote control an iPod on web browsers with smartphones, tablets, notebooks, and PCs over WiFi 2.4GHz
-- Utilise iPod accessory protocol to query music, navigate, and playback control
-
-
+-------------------------------------------------
 ## Version 1 - Buttons UI (Prototype)
 https://youtu.be/brp1ZJ7FeHw?si=_tc-UpiQPWjvWJQX
 ![prototype](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/%E2%80%8Eprototype1.%E2%80%8E001.jpeg)
