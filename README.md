@@ -1,5 +1,6 @@
 # iPod Smart Dock
 
+Click to open on Youtube
 [![Watch the video](https://img.youtube.com/vi/9AMtOfmdr1U/maxresdefault.jpg)](https://www.youtube.com/watch?v=9AMtOfmdr1U)
 
 A tool to convert the colour image to a 4-bit grey bitmap into Bytes Array -> 
