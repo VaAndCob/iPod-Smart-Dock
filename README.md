@@ -2,10 +2,10 @@
 
 Universal iPod Controller with 30-pin compatibility, web-based touch-wheel interface, EQ control, and multilingual track support. Features 3.5mm AV out, Bluetooth 5.3 streaming, switchable 5V/12V charging, OTA updates, and expansion-ready design — available in Black, Yellow, or Blue.
 
-Click image below to open on YouTube
+Click the image below to open on YouTube
 [![Watch the video](https://img.youtube.com/vi/9AMtOfmdr1U/maxresdefault.jpg)](https://www.youtube.com/watch?v=9AMtOfmdr1U)
 
-A tool to convert the colour image to a 4-bit grey bitmap into Bytes Array -> 
+A specially-made tool to convert an image to bytes array that is compatible with iPod monochrome and colour display-> 
 [iPod Image Converter](https://vaandcob.github.io/firmware/tools/iPodImageConverter.html)
 
 -------------------------------------------------
