@@ -11,13 +11,13 @@ A specially-made tool to convert an image to bytes array that is compatible with
 -------------------------------------------------
 ## Version 1 - Buttons UI (Prototype)
 https://youtu.be/brp1ZJ7FeHw?si=_tc-UpiQPWjvWJQX
-![prototype](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/%E2%80%8Eprototype1.%E2%80%8E001.jpeg)
+![prototype](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/%E2%80%8Eprototype1.%E2%80%8E001.jpeg)
 
 ## Topology
-![topology](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/topology.jpg)
+![topology](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/topology.jpg)
 
 ## Circuit diagram
-![diagram](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/prototpe.png)
+![diagram](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/prototpe.png)
 
 
 ## Version 2.1 - Touch wheel UI (not published)
@@ -39,16 +39,16 @@ Future-proof Design:
 - OTA Updates: Receive firmware updates over the air for continuous improvements and new features.
 - Expandable: Supports future accessories add-ons, such as audio spectrum LED ring, candlelight, panel analogue VU meter, etc..
   
-![all](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/all1.jpg)
+![all](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/all1.jpg)
 
-![web1](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/web1.jpeg)
+![web1](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/web1.jpeg)
 
-![web2](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/web2.jpeg)
+![web2](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/web2.jpeg)
 
 ## Version 2.3 - Low profile (not published)
-![Version 2.3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/v3_1.jpg)
-![Version 2.3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/v3_2.jpg)
-![Version 2.3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/document/v3_3.jpg)
+![Version 2.3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/v3_1.jpg)
+![Version 2.3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/v3_2.jpg)
+![Version 2.3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/v3_3.jpg)
 
 Demo Video -> https://www.tiktok.com/@vaandcob/video/7349179325091974421
 
