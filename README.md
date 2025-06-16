@@ -41,9 +41,13 @@ Future-proof Design:
   
 ![all](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/all1.jpg)
 
-![web1](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/web1.jpeg)
+![web1](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/web1.jpg)
 
-![web2](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/web2.jpeg)
+![web2](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/web2.jpg)
+
+![web3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/web3.jpg)
+
+![web4](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/web4.jpg)
 
 ## Version 2.3 - Low profile (not published)
 ![Version 2.3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/v3_1.jpg)
