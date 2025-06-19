@@ -9,7 +9,7 @@ A specially-made tool to convert an image to bytes array that is compatible with
 [iPod Image Converter](https://vaandcob.github.io/firmware/tools/iPodImageConverter.html)
 
 ---
-## Version 1 - Buttons UI (Prototype)
+## Version 1 - Prototype
 https://youtu.be/brp1ZJ7FeHw?si=_tc-UpiQPWjvWJQX
 ![prototype](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/%E2%80%8Eprototype1.%E2%80%8E001.jpeg)
 
@@ -22,6 +22,7 @@ https://youtu.be/brp1ZJ7FeHw?si=_tc-UpiQPWjvWJQX
 ---
 ## Version 2.1 - Box (End-of-Life)
 [https://youtu.be/8u41ffgJiVw](https://youtu.be/Ad9eqryjbyI)
+![all](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/all1.jpg)
 ---
 ## Version 2.3 - Low profile (Available)
 ![Version 2.3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/v3_1.jpg)
@@ -43,8 +44,6 @@ Versatile Connectivity:
 Future-proof Design:
 - OTA Updates: Receive firmware updates over the air for continuous improvements and new features.
 - Expandable: Supports future accessories add-ons, such as audio spectrum LED ring, candlelight, panel analogue VU meter, etc..
-  
-![all](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/all1.jpg)
 
 ![web1](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/web1.jpg)
 
