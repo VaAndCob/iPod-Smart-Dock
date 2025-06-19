@@ -20,8 +20,13 @@ https://youtu.be/brp1ZJ7FeHw?si=_tc-UpiQPWjvWJQX
 ![diagram](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/prototpe.png)
 
 ---
-## Version 2.1 - Touch wheel UI (End-of-Life)
+## Version 2.1 - Box (End-of-Life)
 [https://youtu.be/8u41ffgJiVw](https://youtu.be/Ad9eqryjbyI)
+---
+## Version 2.3 - Low profile (Available)
+![Version 2.3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/v3_1.jpg)
+![Version 2.3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/v3_2.jpg)
+![Version 2.3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/v3_3.jpg)
 
 Enhanced Functionality:
 -  Wide Compatibility: Works seamlessly with all iPods and iPhones equipped with a 30-pin dock connector, including iPod Gen3, Gen4, Video, Classic, Nano, mini, iPhone 4s, and more.
@@ -48,11 +53,6 @@ Future-proof Design:
 ![web3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/web3.jpg)
 
 ![web4](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/web4.jpg)
----
-## Version 2.3 - Low profile (Available)
-![Version 2.3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/v3_1.jpg)
-![Version 2.3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/v3_2.jpg)
-![Version 2.3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/v3_3.jpg)
 
 Demo Video -> https://www.tiktok.com/@vaandcob/video/7349179325091974421
 
