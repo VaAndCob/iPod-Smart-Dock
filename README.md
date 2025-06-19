@@ -54,5 +54,4 @@ Demo Video -> https://www.tiktok.com/@vaandcob/video/7349179325091974421
 
 ## Interest to buy IM me -> [Inbox](https://www.facebook.com/VaAndCob)
 
-## License and Credits
-Developed by Va&Cob (2023)
+## Developed by Va&Cob (2023)
