@@ -8,7 +8,7 @@ Click the image below to open on YouTube
 A specially-made tool to convert an image to bytes array that is compatible with iPod monochrome and colour display-> 
 [iPod Image Converter](https://vaandcob.github.io/firmware/tools/iPodImageConverter.html)
 
--------------------------------------------------
+---
 ## Version 1 - Buttons UI (Prototype)
 https://youtu.be/brp1ZJ7FeHw?si=_tc-UpiQPWjvWJQX
 ![prototype](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/%E2%80%8Eprototype1.%E2%80%8E001.jpeg)
@@ -19,8 +19,8 @@ https://youtu.be/brp1ZJ7FeHw?si=_tc-UpiQPWjvWJQX
 ## Circuit diagram
 ![diagram](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/prototpe.png)
 
-
-## Version 2.1 - Touch wheel UI (not published)
+---
+## Version 2.1 - Touch wheel UI (End-of-Life)
 [https://youtu.be/8u41ffgJiVw](https://youtu.be/Ad9eqryjbyI)
 
 Enhanced Functionality:
@@ -48,15 +48,15 @@ Future-proof Design:
 ![web3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/web3.jpg)
 
 ![web4](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/web4.jpg)
-
-## Version 2.3 - Low profile (not published)
+---
+## Version 2.3 - Low profile (Available)
 ![Version 2.3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/v3_1.jpg)
 ![Version 2.3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/v3_2.jpg)
 ![Version 2.3](https://github.com/VaAndCob/iPod-Smart-Dock-V1/blob/main/public/v3_3.jpg)
 
 Demo Video -> https://www.tiktok.com/@vaandcob/video/7349179325091974421
 
-## Interest to buy [Inbox](https://www.facebook.com/VaAndCob)
+## Interest to buy IM me -> [Inbox](https://www.facebook.com/VaAndCob)
 
 ## License and Credits
 Developed by Va&Cob (2023)
